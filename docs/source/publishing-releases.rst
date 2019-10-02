@@ -134,8 +134,8 @@ wait to publish a release until your package is usable and tested.
 
    .. code-block:: bash
 
-       python setup.py sdist
-       python setup.py bdist_wheel
+       python3 setup.py sdist
+       python3 setup.py bdist_wheel
        twine upload dist/*
 
 The package is now installable with pip. It may take a couple minutes to become
